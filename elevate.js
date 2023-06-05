@@ -2,15 +2,15 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj.subscriber.entitlements = {
-      "pixelmator_photo_pro_access":{
+      "pro":{
               "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"pixelmator_photo_yearly_v1",
+              "product_identifier":"ios_subscription_annual_39.99_en_2020.01.03",
               "purchase_date":"2022-04-09T05:05:04Z"
       }
   },
   
 obj.subscriber.subscriptions ={
-      "pixelmator_photo_yearly_v1":{
+      "ios_subscription_annual_39.99_en_2020.01.03":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
               "is_sandbox":false,
